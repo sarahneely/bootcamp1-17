@@ -1,0 +1,147 @@
+body {
+    margin: 0;
+}
+
+.main-nav {
+    background-color: rgba(88, 75, 60, .5);
+    height: 60px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+
+}
+
+.container {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.logo {
+    height: 60px;
+}
+
+.nav-list {
+    float: right;
+    list-style: none;
+}
+
+.nav-item {
+    float: left;
+    margin-left: 15px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav-link:hover {
+    color: rgb(88, 75, 60);
+}
+
+.hero-background {
+    margin-top: 60px;
+    background-image: url("../images/simon-hesthaven-216108.jpg");
+    height: 500px;
+}
+
+.hero-text {
+    font-family: 'Lobster Two', cursive;
+    margin-top: 0px;
+    text-align: center;
+    color: rgb(88, 75, 60);
+}
+
+section {
+    height: 450px;
+}
+
+.column {
+    width: 30%;
+    height: 375px;
+    float: left;
+    margin-left: 25px;
+    margin-top: 15px;
+    text-align: center;
+    background-color: green;
+    border: 3px dashed black;
+}
+
+.column-text {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+
+.column-img {
+    height: 150px;
+}
+
+footer {
+    border-top: 2px solid black;
+    background-color: #50C878;
+    height: 150px;
+}
+
+.fontawesome {
+    text-align: center;
+    color: navy;
+    font-size: 40px;
+    margin: 10px;
+}
+
+/*****************ABOUT PAGE*****************/
+
+.about-text {
+    height: 500px;
+    margin-top: 60px;
+    width: 95%;
+    margin-left: 15px;
+    border: 5px solid black;
+    background-color: gray;
+    text-align: center;
+}
+
+.column1 {
+    height: 400px;
+    width: 40%;
+    border: 3px dashed black;
+    margin-left: 70px;
+    margin-top: 35px;
+    padding: 10px;
+    display: inline-block;
+    float: left;
+}
+
+.button{
+    background-color: green;
+    border-radius: 6%;
+    padding: 8px 4px;
+}
+
+.link_text{
+    color: white;
+    text-decoration: none;
+}
+
+.link_text:hover {
+    color: red;
+}
+
+.about_lorem{
+    color: white !important;
+}
+
+.about_img{
+    height: 350px;
+    padding-top: 25px;
+}
+
+/*CONTACT PAGE*/
+.contact-text {
+    height: 500px;
+    margin-top: 60px;
+}
+
+.iframe-container {
+    width: 50%;
+}
